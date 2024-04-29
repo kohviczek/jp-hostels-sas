@@ -1,7 +1,7 @@
 /* Import the data set */
 
 proc import out=work.hostel 
-            datafile="C:\Users\Del\Downloads\Hostel.csv" 
+            datafile="Hostel.csv" 
             dbms=csv replace;
      getnames=yes;
      datarow=2; 
